@@ -1,5 +1,5 @@
 import React from 'react'
-import 'src/css/App.css'
+import 'D:/Works/React JS/practice/src/css/App.css'
 
 function App(props) {
   return (
@@ -7,7 +7,7 @@ function App(props) {
       <div class="card">
         <div id="title">{props.title}</div>
         <div>
-          <img src={props.img}></img>
+          <img src={props.img} alt=''></img>
         </div>
         <div>
           <ul>
