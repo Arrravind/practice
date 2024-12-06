@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App';
-import image1 from './img1.jpg'
-import kratos from './kratos.jpeg'
-import Pn from './Pn'
-import Leap from './Leap'
+import App from './components/App';
+import image1 from './media/img1.jpg'
+import kratos from './media/kratos.jpeg'
+import Pn from './components/Pn'
+import Leap from './components/Leap'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
