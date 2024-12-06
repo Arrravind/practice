@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './components/App';
-import image1 from './media/img1.jpg'
-import kratos from './media/kratos.jpeg'
-import Pn from './components/Pn'
-import Leap from './components/Leap'
-import Routing from './components/Routing';
+// import App from './components/App';
+// import image1 from './media/img1.jpg'
+// import kratos from './media/kratos.jpeg'
+// import Pn from './components/Pn'
+// import Leap from './components/Leap'
+// import Routing from './components/Routing';
+import ProfileList from './components/ProfileList';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -17,10 +18,11 @@ root.render(
     <Pn />
     <br/>
     <Leap year={2024}/>
-    <Leap year={2006}/> */}
+    <Leap year={2006}/> 
     <Pn />
     <Leap />
-    <Routing />
+    <Routing />*/}
+    <ProfileList />
   </div>
 );
 
