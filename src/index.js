@@ -5,6 +5,7 @@ import image1 from './media/img1.jpg'
 import kratos from './media/kratos.jpeg'
 import Pn from './components/Pn'
 import Leap from './components/Leap'
+import Routing from './components/Routing';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -19,6 +20,7 @@ root.render(
     <Leap year={2006}/> */}
     <Pn />
     <Leap />
+    <Routing />
   </div>
 );
 
