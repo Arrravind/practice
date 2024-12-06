@@ -18,6 +18,7 @@ root.render(
     <Leap year={2024}/>
     <Leap year={2006}/> */}
     <Pn />
+    <Leap />
   </div>
 );
 

@@ -1,11 +1,24 @@
-import React from 'react'
+import React, { useState } from 'react'
 
-function Leap(props) {
+function Leap() {
+  const [num, setNum] = useState('');
+  const [result, setResult] = useState('');
+  const checkNum = () => {
+    if (num % 4 === 0 && num % 100 !== 0) {
+      setResult('Leap Year');
+    } else if (num % 400 === 0) {
+      setResult('Leap Year');
+    } else {
+      setResult('Not a Leap Year');
+    }
+  }
+
   return (
     <div>
-      {props.year} is
-      {(props.year % 4 === 0 && props.year % 100 !== 0) || props.year % 400 === 0 ?
-      ' a leap year' : ' Not a leap year'}
+      <h1>Leap Year or Not</h1>
+      <input type="number" name="num" value={num} onChange={(event) => setNum(event.target.value)}/>
+      <button onClick={checkNum}>Check</button>
+      {result && (<p>{result}</p>)}
     </div>
   )
 }
