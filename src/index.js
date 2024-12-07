@@ -6,7 +6,8 @@ import ReactDOM from 'react-dom/client';
 // import Pn from './components/Pn'
 // import Leap from './components/Leap'
 // import Routing from './components/Routing';
-import ProfileList from './components/ProfileList';
+// import ProfileList from './components/ProfileList';
+import ShoppingCart from './components/ShoppingCart';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -22,7 +23,7 @@ root.render(
     <Pn />
     <Leap />
     <Routing />*/}
-    <ProfileList />
+    <ShoppingCart />
   </div>
 );
 
