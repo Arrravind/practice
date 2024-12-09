@@ -1,5 +1,5 @@
 import React from 'react'
-import 'D:/Works/React JS/practice/src/css/App.css'
+import './css/App.css'
 
 function App(props) {
   return (
